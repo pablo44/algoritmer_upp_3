@@ -27,8 +27,7 @@ def search_files(directory, search_text):
 
 
 
-    #except Exception as e:
-       # print(f"error")
+    
 
 if __name__ == "__main__":
     search_files()
