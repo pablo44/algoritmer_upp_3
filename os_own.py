@@ -30,4 +30,4 @@ def search_files(directory, search_text):
     
 
 if __name__ == "__main__":
-    search_files()
+    search_files(directory='c:\ioT\Data_structure',search_text= None)
