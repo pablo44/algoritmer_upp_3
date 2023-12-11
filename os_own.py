@@ -23,6 +23,9 @@ def search_files(directory, search_text):
 # now we inform that this file is not readable
             except Exception as e:
                 print(f"error reading file {file_path}: {e}")
+# here we use recursion to check subdirectories  from the tuples we searched firs, we create a list with dirs to avoid loopin while looping
+        #for subdirections in list(dirs):
+             #search_files(os.path.join(root, subdirections), search_text=None)
 
 
 
